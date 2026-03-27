@@ -2279,14 +2279,11 @@ span {
   color: var(--white);
   opacity: 0.5;
 }
-.footer-newsletter-items .newsletter-items .footer-input .newsletter-btn {
-  position: absolute;
-  bottom: 30px;
-  right: 0;
-}
+
 
 .footer-section {
   position: relative;
+  background-color: ;
 }
 .footer-section .footer-circle-shape {
   position: absolute;
@@ -2441,6 +2438,10 @@ span {
     margin-top: 40px;
     justify-content: center;
   }
+}
+
+.white{
+  background-color: white;
 }
 .footer-widgets-wrapper .main-footer-wrapper.style3 .contact-media .social-media {
   display: flex;
@@ -3092,6 +3093,9 @@ span {
 .sticky.header-1 .logo {
   filter: brightness(0);
 }
+.icons{
+  width: 200px;
+}
 .sticky.header-1 .header-main .main-menu ul li a {
   color: var(--header);
 }
@@ -3190,6 +3194,10 @@ span {
 }
 .sticky.white-text-white .header-main .main-menu ul li .submenu li:hover > a::after {
   color: var(--theme);
+}
+
+.wolf{
+   filter: brightness(0) invert(1);
 }
 
 .offcanvas__info {
@@ -3918,7 +3926,7 @@ span {
   font-size: 20px;
 }
 .hero-1 .hero-content h1 {
-  margin-top: 20px;
+  
   color: var(--white);
 }
 @media (max-width: 1399px) {
@@ -5925,6 +5933,7 @@ span {
   width: 0;
   transition: 0.7s 0.3s allcubic-bezier(0.1, 0.1, 0.1, 1);
 }
+
 
 .search-wrap {
   width: 100%;
